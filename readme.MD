@@ -1,4 +1,4 @@
-# Project Title
+# Daily Leetcode for CS Improvement
 
 ## Description
 
