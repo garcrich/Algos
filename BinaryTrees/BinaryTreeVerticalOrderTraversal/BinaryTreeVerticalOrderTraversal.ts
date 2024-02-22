@@ -1,4 +1,5 @@
 import TreeNode from "@cds/TreeNode";
+import { createExampleTree1 } from "./createTrees";
 
 export default function verticalOrder(
     root: TreeNode | null
@@ -43,3 +44,6 @@ export default function verticalOrder(
     
     return result;
 }
+
+const tree = createExampleTree1()
+verticalOrder(tree)
