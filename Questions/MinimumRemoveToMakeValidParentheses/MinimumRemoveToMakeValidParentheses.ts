@@ -25,5 +25,5 @@ export default function minRemoveToMakeValid(s: string): string {
         }
     }
 
-    `return transformedStr;
+    return transformedStr;
 }
