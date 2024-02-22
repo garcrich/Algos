@@ -1,4 +1,7 @@
-## Minimum Remove to Make Valid Parentheses
+# Minimum Remove to Make Valid Parentheses
+
+## Problem
+https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/
 
 ### Problem Statement
 Given a string `s` of `'('`, `')'`, and lowercase English characters, the task is to remove the minimum number of parentheses to ensure the resulting string is valid. 
