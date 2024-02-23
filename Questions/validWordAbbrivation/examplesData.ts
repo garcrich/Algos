@@ -4,13 +4,13 @@ type TestCase = {
 }
 
 export const substitution: TestCase = {
-    word: 'internationalization',
-    abbr: 's10n'
+    word: 'Pocatello',
+    abbr: 'P8'
 }
 
 export const fullSub: TestCase = {
-    word: 'internationalization',
-    abbr: '12'
+    word: 'California',
+    abbr: '10'
 }
 
 export const invalidNums: TestCase = {
