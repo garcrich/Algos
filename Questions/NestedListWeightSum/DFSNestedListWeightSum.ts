@@ -1,4 +1,4 @@
-import NestedInteger from "./NestedInterger";
+import NestedInteger from "./NestedInteger";
 
 export default function NestedListWeightSum(nestedList: NestedInteger[]):number {
     return calculateDepthSum(nestedList, 1)

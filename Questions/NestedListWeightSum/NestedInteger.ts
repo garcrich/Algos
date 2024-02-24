@@ -3,10 +3,10 @@ export default class NestedInteger {
     private list: NestedInteger[];
 
     constructor(value?: number) {
-        if (value !== undefined) {
-            this.value = value;
+        if (value === undefined) {
             this.list = [];
         } else {
+            this.value = value;
             this.list = [];
         }
     }
