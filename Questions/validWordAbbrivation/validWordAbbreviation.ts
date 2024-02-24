@@ -1,4 +1,4 @@
-import { substitution } from "./examplesData";
+import { shortAbbr, substitution } from "./examplesData";
 
 export default function validWordAbbreviation(word: string, abbr: string): boolean {
     let wordIndex = 0;
@@ -23,4 +23,4 @@ export default function validWordAbbreviation(word: string, abbr: string): boole
     return wordIndex + num === word.length
 }
 
-validWordAbbreviation(substitution.word, substitution.abbr)
+validWordAbbreviation(shortAbbr.word, shortAbbr.abbr)
