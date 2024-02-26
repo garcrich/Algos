@@ -1,7 +1,7 @@
+# Dot Product of Two Sparse Vectors
+
 ## Problem
 https://leetcode.com/problems/dot-product-of-two-sparse-vectors
-
-### Dot Product of Two Sparse Vectors
 
 #### Problem Statement
 Compute the dot product of two sparse vectors. A sparse vector is characterized by having mostly zero values. The solution should efficiently handle the sparsity of the vectors.
