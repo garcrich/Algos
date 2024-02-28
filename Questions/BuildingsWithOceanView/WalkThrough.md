@@ -1,10 +1,10 @@
 # Buildings With an Ocean View
 
-## Problem
-https://leetcode.com/problems/buildings-with-an-ocean-view
-
 ### Problem Statement
 Given a list of building heights, determine which buildings have an unobstructed view of the ocean. The ocean is to the right of all buildings, so a building has an ocean view if all buildings to its right are shorter.
+
+## Problem
+https://leetcode.com/problems/buildings-with-an-ocean-view
 
 ### Solution Approach
 The solution iterates over the building heights from right to left, keeping track of the tallest building seen so far. If the current building is taller than the tallest seen so far, it has an ocean view. We store the index of these buildings. Since the traversal is from right to left, the resulting list of indices is in reverse order and is corrected at the end by reversing the list before returning it.
