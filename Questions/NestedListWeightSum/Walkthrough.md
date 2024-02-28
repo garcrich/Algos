@@ -1,8 +1,8 @@
 
+# Nested List Weight Sum (DFS Approach)
+
 ## Problem
 https://leetcode.com/problems/nested-list-weight-sum
-
-# Nested List Weight Sum (DFS Approach)
 
 ### Problem Statement
 Given a nested list of integers, where each integer is potentially nested within several lists, calculate the total sum of all integers in the list weighted by their depth.
