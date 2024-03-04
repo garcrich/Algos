@@ -1,7 +1,7 @@
 # Kth Largest Element in an Array
 
 ## Problem
-[Find Kth Largest Element - LeetCode](https://leetcode.com/problems/kth-largest-element-in-an-array)
+https://leetcode.com/problems/kth-largest-element-in-an-array
 
 ### Problem Statement
 Find the kth largest element in an unsorted array. This means that the kth largest element might not be the kth distinct element.
