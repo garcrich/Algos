@@ -21,4 +21,4 @@ The approach is to use a sliding window of fixed size to store the recent values
 ### Real-World Applications
 - **Real-Time Monitoring**: Calculating real-time averages in monitoring systems, e.g., CPU usage over the last minute.
 - **Financial Analysis**: Moving averages are used in stock trading to analyze stock prices.
-- **Sensor Data**: In IoT systems, moving averages can smooth out sensor readings to account for spikes or noise.
+- **Sensor Data**: In IoT systems, moving averages can smooth out sensor readings to account for spikes or noise.   
