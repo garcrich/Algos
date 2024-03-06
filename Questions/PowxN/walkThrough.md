@@ -1,26 +1,14 @@
-# Nested List Weight Sum (DFS Approach)
+# Power Function Calculation: Recursive Approach (Divide and Conquer)
 
 ## Problem
-https://leetcode.com/problems/nested-list-weight-sum
+Calculate \(x^n\), where \(x\) is a base number and \(n\) is an integer exponent.
 
 ### Problem Statement
-Given a nested list of integers, where each integer is potentially nested within several lists, calculate the total sum of all integers in the list weighted by their depth.
+Implement a function to calculate the power of a given number \(x\) raised to an exponent \(n\), accommodating both positive and negative exponents.
 
-### Solution Approach (DFS)
-The solution uses Depth-First Search (DFS) to traverse the nested list. Each integer's value is multiplied by its depth level, and the results are summed together.
-
-### Big O Complexity
-- **Time Complexity**: O(N), where N is the total number of integers, including nested ones.
-- **Space Complexity**: O(D), where D is the maximum depth of nesting.
-
-# Nested List Weight Sum (Queue Approach)
-
-### Problem Statement
-Calculate the sum of integers within a nested list, each multiplied by the depth at which it is found.
-
-### Solution Approach (Queue)
-The queue-based solution iterates through the nested list using a queue to keep track of the current depth of each element, ensuring each integer is multiplied by the correct depth level.
+### Solution Approach (Recursive - Divide and Conquer)
+The solution uses a recursive divide and conquer approach to halve the exponent at each recursive step, significantly reducing the computational complexity. This method effectively handles both positive and negative exponents by leveraging mathematical properties of exponentiation.
 
 ### Big O Complexity
-- **Time Complexity**: O(N), N being the total number of integers in the nested list.
-- **Space Complexity**: O(B), B being the breadth of the widest level in the nested list.
+- **Time Complexity**: O(log n), where \(n\) is the exponent. The divide and conquer strategy halves the exponent at each step, leading to a logarithmic number of steps.
+- **Space Complexity**: O(log n), as the depth of the recursion stack grows logarithmically with the size of the exponent.
