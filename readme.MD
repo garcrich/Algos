@@ -11,9 +11,6 @@ How to get a development environment running:
 Clone the repository:
 
 ```bash
-git clone [your-repo-url]
-cd [your-project-name]
-
 npm install
 npm run test
 ```
