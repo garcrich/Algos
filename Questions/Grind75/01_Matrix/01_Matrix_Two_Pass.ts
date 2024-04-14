@@ -1,4 +1,4 @@
-function updateMatrix(mat: number[][]): number[][] {
+function updateMatrixTwoPass(mat: number[][]): number[][] {
     const rows = mat.length
     const cols = mat[0].length
 

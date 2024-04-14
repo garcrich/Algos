@@ -1,5 +1,4 @@
-// @ts-ignore
-function updateMatrix(mat: number[][]): number[][] {
+function updateMatrixBFS(mat: number[][]): number[][] {
     const rows = mat.length;
     const cols = mat[0].length;
     const queue: number[][] = [];
