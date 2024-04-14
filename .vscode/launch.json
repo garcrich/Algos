@@ -9,7 +9,8 @@
         "-r",
         "ts-node/register",
         "-r",
-        "tsconfig-paths/register"
+        "tsconfig-paths/register",
+        "--inspect-brk"
       ],
       "args": [
         "${relativeFile}"
